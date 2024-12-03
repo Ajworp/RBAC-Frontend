@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "username": "Tony Stark",
+      "password": "Tony123",
+      "email": "tony@gmail.com",
+      "role": "Admin"
+    },
+    {
+      "id": 2,
+      "username": "Hulk",
+      "password": "securepassword",
+      "email": "Hulk@example.com",
+      "role": "User"
+    },
+    {
+        "id": 3,
+        "username": "Caption",
+        "password": "password123",
+        "email": "Caption@example.com",
+        "role": "Admin"
+      },
+      {
+        "id": 4,
+        "username": "Spiderman",
+        "password": "securepassword",
+        "email": "Spiderman@example.com",
+        "role": "User"
+      },
+      {
+        "id":5,
+        "username":"Arav",
+        "password":"arav",
+        "email":"arav@gmail.com",
+        "role":"User"
+      },
+      {
+        "id":6,
+        "username":"Aman",
+        "password":"aman",
+        "email":"aman@gmail.com",
+        "role":"User"
+      },
+      {
+        "id":7,
+        "username":"Sujeet",
+        "password":"sujeet",
+        "email":"sujeet@gmail.com",
+        "role":"User"
+      },
+      {
+        "id":8,
+        "username":"Abhi",
+        "password":"abhi",
+        "email":"abhi@gmail.com",
+        "role":"User"
+      },
+      {
+        "id":9,
+        "username":"Ironman",
+        "password":"ironman",
+        "email":"ironman@gmail.com",
+        "role":"User"
+      },
+      {
+        "id":10,
+        "username":"hacker",
+        "password":"hacker",
+        "email":"hacker@gmail.com",
+        "role":"User"
+      }
+  ]
+  
