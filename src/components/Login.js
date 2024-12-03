@@ -51,30 +51,8 @@ const Login = () => {
 
     } catch (error) {
       console.log(error);
-      //   const user = (R.email === email && R.password === password);
-      // if (user) {
-      //   localStorage.removeItem('user');
-      //   localStorage.setItem('user', JSON.stringify(user));
-      //   navigate('/usermanagement');
-      //   window.location.reload();
-      // }
+      
     }
-
-
-
-    // Here you would normally authenticate the user, for now we just log them in
-    // console.log('Logged in with:', email, password);
-    // try {
-    // const res = await axios.post('http://localhost:8080/api/auth/login', { email, password });
-    // console.log(res.data.token);
-    // localStorage.setItem('token', res.data.token);
-    // setToken(res.data.token);
-    // navigate('/dashboard');
-    // } catch (error) {
-    //   console.log(error);
-
-    // }
-    // Redirect to the dashboard (or home page)
 
   };
 
