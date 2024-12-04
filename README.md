@@ -27,8 +27,8 @@ This React application demonstrates role-based access control, including **User 
 ## **Features**
 - **Role-Based Access Control**: Permissions are granted based on roles (User/Admin).
 - **User Management**:
-  - View a list of users (name, status, role).
-  - Admin users can activate, deactivate, or delete other users.
+  - View a list of users (name, status).
+  - Admin users can activate or deactivate, delete other users.
 - **Role Management**:
   - View roles and permissions.
   - Admin users can update permissions (Read, Write, Delete).
@@ -63,7 +63,7 @@ This React application demonstrates role-based access control, including **User 
     - Can view a list of users (username, status).
     - Can view roles and permissions (Read, Write, Delete).
   - **Admin Role**:
-    - Can activate, deactivate, or delete users.
+    - Can activate or deactivate anddelete users.
     - Can update role permissions.
 
 ---
@@ -75,8 +75,8 @@ This React application demonstrates role-based access control, including **User 
     - Status (Active/Inactive)
 - **Admin Role**:
   - Displays a table of users with the following actions:
-    - **Activate/Deactivate Button**: Changes the user’s status.
-    - **Delete Button**: Removes the user.
+    - **Activate/Deactivate Button**: Changes the user’s status but it is temporary.
+    - **Delete Button**: Removes the user but it is temporary delete.
 
 ---
 
@@ -84,7 +84,7 @@ This React application demonstrates role-based access control, including **User 
 - **User Role**:
   - Displays a table of roles and permissions (Read, Write, Delete).
 - **Admin Role**:
-  - Displays a table with options to update permissions for roles.
+  - Displays a table with options to update permissions for roles but it is temporary.
 
 ---
 
@@ -130,8 +130,8 @@ This React application demonstrates role-based access control, including **User 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-repo/rbac-react-app.git
-   cd rbac-react-app
+   git clone https://github.com/erAbhishekJaiswal/RBAC-Frontend.git
+   cd RBAC-Frontend
    ```
 
 2. **Install dependencies**:
@@ -167,6 +167,10 @@ This React application demonstrates role-based access control, including **User 
 
 ## **Folder Structure**
 ```
+public
+├── mock-data/ (stored in public folder)
+│   ├── users.json
+│   └── roles.json
 src/
 ├── components/
 │   ├── Login.js
@@ -174,9 +178,6 @@ src/
 │   ├── UserManagement.js
 │   ├── RoleManagement.js
 │   └── Navbar.js
-├── mock-data/ (stored in public folder)
-│   ├── users.json
-│   └── roles.json
 ├── App.js
 ├── index.js
 ```
