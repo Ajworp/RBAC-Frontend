@@ -17,6 +17,7 @@ This React application demonstrates role-based access control, including **User 
   - [Mock API Data](#mock-api-data)
   - [Local Storage](#local-storage)
 - [Setup and Installation](#setup-and-installation)
+- [Login Data](#For-login-data)
 - [Usage Instructions](#usage-instructions)
 - [Tech Stack](#tech-stack)
 - [Folder Structure](#folder-structure)
@@ -147,7 +148,20 @@ This React application demonstrates role-based access control, including **User 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
+## **For Login Data**
+For **Admin Login**:
+``` 
+                     Email:tony@gmail.com
+                     Password:Tony123
+```
 
+For **User Login**:
+```
+                     Email:arav@gmail.com
+                     Password:arav
+```
+
+---
 ## **Usage Instructions**
 1. Register or log in using the mock API data.
 2. After login:
